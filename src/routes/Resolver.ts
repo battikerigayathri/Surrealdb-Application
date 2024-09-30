@@ -6,7 +6,7 @@ export const resolvers = {
         return await User.findById(id);
       },
       getAllUsers: async () => {
-        return await User.find();
+        return await User.findAll();
       }
     },
     Mutation: {
